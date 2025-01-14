@@ -1,42 +1,33 @@
-# Swing P02
+# Hotel MIGMAR
 
 ## Descripción del proyecto
-
-**CompraProductosModificado** es una aplicación gráfica desarrollada en Java utilizando Swing. 
-Esta herramienta permite gestionar compras de productos navideños mediante una interfaz intuitiva que incluye funciones como agregar productos al carrito, eliminar artículos seleccionados y capturar información del usuario.
+El proyecto "Hotel MIGMAR" es una aplicación gráfica diseñada para gestionar las reservas de un hotel. 
+Proporciona herramientas para registrar nuevas reservas, manteniendo una experiencia de usuario intuitiva, eficiente y minimalista.
+La aplicación sigue principios de usabilidad para garantizar que cualquier usuario, desde principiantes hasta avanzados, pueda interactuar fácilmente con ella.
 
 ## Contenido de la publicación
-
-La aplicación incluye las siguientes funcionalidades principales:
-
-**Gestión de compras:**
-  - Selección de productos desde un menú desplegable.
-  - Agregar productos al carrito con detalles de cantidad y precio.
-  - Eliminar artículos seleccionados del carrito.
-  
-**Captura de datos personales:**
-  - Formulario para ingresar datos como DNI, nombre, apellidos, dirección, y código postal.
-
-**Visualización de imágenes:**
-  - Imágenes asociadas a cada producto, con una opción para mostrarlas u ocultarlas desde el menú.
+- **Gestión de reservas:** Incluye funcionalidades para dar de alta y baja reservas.
+- **Interfaz gráfica:** Diseñada con Swing, ofrece una experiencia visual simple y funcional.
+- **Documentación y ayuda:** Cada elemento tiene descripciones claras que facilitan la comprensión y el uso.
+- **Validación de datos:** Garantiza que los datos ingresados, como el número de habitaciones o el DNI, sean válidos.
 
 ## Desarrollo del proyecto
-
-El proyecto utiliza componentes y clases de Swing para proporcionar una experiencia de usuario gráfica e interactiva.  
-Se ha incorporado validación para las entradas de datos y soporte para diversas funcionalidades interactivas, como el manejo de eventos y operaciones en tablas.
-
-### Estructura principal:
-
-- **Ventana principal:** Un `JDialog` que organiza los componentes de la interfaz.
-- **Gestión de tablas:** Uso de `DefaultTableModel` para mostrar productos y cantidades de forma no editable.
-- **Eventos:** Listeners para manejar acciones de botones y menús desplegables.
-- **Imágenes:** Carga de recursos gráficos mediante `ImageIcon`.
+El proyecto fue desarrollado utilizando Java y la biblioteca Swing para crear la interfaz gráfica. Entre las funcionalidades implementadas se encuentran:
+- **Visibilidad del estado del sistema:** El usuario puede visualizar el cálculo de precios en tiempo real.
+- **Coincidencia con el mundo real:** Uso de términos familiares como "Simple", "Doble" y "Suite".
+- **Prevención de errores:** Validaciones estrictas para DNI, teléfono, y número de habitaciones.
+- **Estética minimalista:** Interfaz limpia y centrada en la funcionalidad.
 
 ## Despliegue
+### Windows
+Para ejecutar la aplicación en Windows, se proporciona un archivo ejecutable JAR que puede ser ejecutado de las siguientes maneras:
 
-### Cómo ejecutar la aplicación desde el ejecutable
+#### Línea de comandos
+1. Asegúrese de tener Java instalado en su sistema.
+2. Abra una terminal o símbolo del sistema.
+3. Navegue al directorio donde se encuentra el archivo `HotelMigmar.jar`.
+4. Ejecute el siguiente comando:
+   java -jar HotelMigmar.jar
 
-1. Asegúrate de tener instalado Java Runtime Environment (JRE) en tu sistema.
-2. Navega a la carpeta que contiene el archivo `.jar` de la aplicación.
-3. Ejecuta el archivo con el siguiente comando:
-   java -jar CompraProductosModificado.jar
+Autor: Miguel Martin Gil
+Version: 1.0
