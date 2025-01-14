@@ -27,7 +27,7 @@ Para ejecutar la aplicación en Windows, se proporciona un archivo ejecutable JA
 2. Abra una terminal o símbolo del sistema.
 3. Navegue al directorio donde se encuentra el archivo `HotelMigmar.jar`.
 4. Ejecute el siguiente comando:
-   java -jar HotelMigmar.jar
+   java -jar swing_c_p02_martinGilMiguel.jar
 
 Autor: Miguel Martin Gil
 Version: 1.0
